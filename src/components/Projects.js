@@ -1,8 +1,8 @@
 import React from 'react';
 import '../assets/styles/Projects.css';
-import devnetwork from '../assets/img/projects/devnetwork.png';
+import chat from '../assets/img/projects/chat.png';
 import quiz from '../assets/img/projects/quiz.png';
-import portfolio from '../assets/img/projects/portfolio.png';
+import dash from '../assets/img/projects/dash.png';
 
 const Projects = () => (
   <div className="projects-container">
@@ -13,7 +13,7 @@ const Projects = () => (
         <div className="flip-box">
           <div className="flip-box-front text-center">
             <div className="inner">
-              <img className="project-img" src={devnetwork} alt="" />
+              <img className="project-img" src={chat} alt="" />
               <i className="fas fa-arrow-circle-left fa-4x" />
             </div>
           </div>
@@ -23,11 +23,11 @@ const Projects = () => (
               <p className="line" />
               <p className="bold">SOCIAL NETWORK FOR LIVE MUSIC LOVERS</p>
               <p>
-                Node - Web Sockets - Express - MongoDB - APIs -
+                Node - Web Sockets - Express - MySQL - APIs -
                 Responsive
               </p>
               <a
-                href="https://devashleyd.github.io/ReactQuiz/"
+                href="https://live-music-chat.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flip-box-button-left hover-btn"
@@ -35,7 +35,7 @@ const Projects = () => (
                 Live Demo
               </a>
               <a
-                href="https://github.com/devashleyd/ReactQuiz"
+                href="https://github.com/devashleyd/Live-Music-Chat-App"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flip-box-button-right hover-btn"
@@ -50,7 +50,7 @@ const Projects = () => (
         <div className="flip-box">
           <div className="flip-box-front text-center">
             <div className="inner">
-              <img className="project-img" src={portfolio} alt="" />
+              <img className="project-img" src={dash} alt="" />
               <i className="fas fa-arrow-circle-left fa-4x" />
             </div>
           </div>
@@ -61,7 +61,7 @@ const Projects = () => (
               <p className="bold">CRYPTO CURRENCY MONITORING DASHBOARD</p>
               <p>React - APIs - Pure CSS - Responsive</p>
               <a
-                href="https://devashleyd.github.io/ReactQuiz/"
+                href="https://ashcryptodash.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flip-box-button-left hover-btn"
@@ -69,7 +69,7 @@ const Projects = () => (
                 Live Demo
               </a>
               <a
-                href="https://github.com/devashleyd/ReactQuiz/"
+                href="https://github.com/DevAshleyD/CryptoDash"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flip-box-button-right hover-btn"
