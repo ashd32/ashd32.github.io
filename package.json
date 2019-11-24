@@ -1,8 +1,8 @@
 {
-  "name": "ihab-portfolio",
+  "name": "ashley-donald-portfolio-2020",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ihab-alazzawi.github.io/portfolio/",
+  "homepage": "https://ashd32.github.io",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.0",

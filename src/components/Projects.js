@@ -27,7 +27,7 @@ const Projects = () => (
                 Responsive
               </p>
               <a
-                href="https://dnetwork.herokuapp.com"
+                href="https://devashleyd.github.io/ReactQuiz/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flip-box-button-left hover-btn"
@@ -35,7 +35,7 @@ const Projects = () => (
                 Live Demo
               </a>
               <a
-                href="https://github.com/Ihab-alazzawi/dev-Network"
+                href="https://github.com/devashleyd/ReactQuiz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flip-box-button-right hover-btn"

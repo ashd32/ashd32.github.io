@@ -4,25 +4,25 @@ import '../assets/styles/Header.css';
 const Header = () => (
   <header>
     <div>
-      <a href="mailto:ihab.alazzawi@outlook.com?subject=Hi%20there!">
+      <a href="mailto:ashd32@gmail.com?subject=Hi%20there!">
         <i className="fas fa-envelope fa-2x" />
       </a>
       <a
-        href="https://www.linkedin.com/in/ihab-alazzawi"
+        href="https://www.linkedin.com/in/andonald"
         target="_blank"
         rel="noopener noreferrer"
       >
         <i className="fab fa-linkedin fa-2x" />
       </a>
       <a
-        href="https://www.facebook.com/ihab.dev"
+        href="https://www.youtube.com/c/webdevmvp"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-facebook fa-2x" />
+        <i className="fab fa-youtube fa-2x" />
       </a>
       <a
-        href="https://github.com/ihab-alazzawi/portfolio/raw/gh-pages/Resume.pdf"
+        href="https://github.com/ashd32/portfolio/raw/gh-pages/AshleyDonaldDeveloperResume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
