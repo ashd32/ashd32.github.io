@@ -22,7 +22,7 @@ const Header = () => (
         <i className="fab fa-youtube fa-2x" />
       </a>
       <a
-        href="https://github.com/ashd32/portfolio/raw/gh-pages/AshleyDonaldDeveloperResume.pdf"
+        href="https://github.com/ashd32/profile/blob/master/AshleyDonaldDeveloperResume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
