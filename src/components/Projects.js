@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/Projects.css';
-import chat from '../assets/img/projects/chat.png';
+import club from '../assets/img/projects/club.png';
 import quiz from '../assets/img/projects/quiz.png';
 import dash from '../assets/img/projects/dash.png';
 
@@ -13,21 +13,21 @@ const Projects = () => (
         <div className="flip-box">
           <div className="flip-box-front text-center">
             <div className="inner">
-              <img className="project-img" src={chat} alt="" />
+              <img className="project-img" src={club} alt="" />
               <i className="fas fa-arrow-circle-left fa-4x" />
             </div>
           </div>
           <div className="flip-box-back text-center">
             <div className="inner">
-              <h3 className="flip-box-header">Live Music Scene Chat</h3>
+              <h3 className="flip-box-header">RTOK.club</h3>
               <p className="line" />
-              <p className="bold">SOCIAL NETWORK FOR LIVE MUSIC LOVERS</p>
+              <p className="bold">Connect with people.</p>
               <p>
-                Node - Web Sockets - Express - MySQL - APIs -
+                Node - React - Express - MongoDB - Material UI -
                 Responsive
               </p>
               <a
-                href="https://live-music-chat.herokuapp.com/"
+                href="https://rtok-club.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flip-box-button-left hover-btn"
@@ -35,7 +35,7 @@ const Projects = () => (
                 Live Demo
               </a>
               <a
-                href="https://github.com/devashleyd/Live-Music-Chat-App"
+                href="https://github.com/DevAshleyD/rtok-club"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flip-box-button-right hover-btn"
